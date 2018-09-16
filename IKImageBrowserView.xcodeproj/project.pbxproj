@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3F03A121449CB4009D93E8 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F03A021449CB4009D93E8 /* MainWindowController.swift */; };
+		DDBE58D41B56B06F00CD60EC /* BrowserWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE58D31B56B06F00CD60EC /* BrowserWindow.swift */; };
+		DDBE58D61B56BB7100CD60EC /* PreviewWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE58D51B56BB7100CD60EC /* PreviewWindow.swift */; };
+		DDCD37001B566A6F00442021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD36FF1B566A6F00442021 /* AppDelegate.swift */; };
+		DDCD37021B566A6F00442021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCD37011B566A6F00442021 /* Images.xcassets */; };
+		DDCD37051B566A6F00442021 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCD37031B566A6F00442021 /* MainMenu.xib */; };
+		DDCD37111B566A7000442021 /* IKImageBrowserViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD37101B566A7000442021 /* IKImageBrowserViewTests.swift */; };
+		DDCD371B1B566AF800442021 /* ImageBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD371A1B566AF800442021 /* ImageBrowserController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDCD370B1B566A7000442021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCD36F21B566A6F00442021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCD36F91B566A6F00442021;
+			remoteInfo = IKImageBrowserView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B3F039E214494F6009D93E8 /* IKImageBrowserView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IKImageBrowserView.entitlements; sourceTree = "<group>"; };
+		2B3F03A021449CB4009D93E8 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		DDBE58D31B56B06F00CD60EC /* BrowserWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserWindow.swift; sourceTree = "<group>"; };
+		DDBE58D51B56BB7100CD60EC /* PreviewWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewWindow.swift; sourceTree = "<group>"; };
+		DDCD36FA1B566A6F00442021 /* IKImageBrowserView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKImageBrowserView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCD36FE1B566A6F00442021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCD36FF1B566A6F00442021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDCD37011B566A6F00442021 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDCD37041B566A6F00442021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDCD370A1B566A7000442021 /* IKImageBrowserViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKImageBrowserViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCD370F1B566A7000442021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCD37101B566A7000442021 /* IKImageBrowserViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKImageBrowserViewTests.swift; sourceTree = "<group>"; };
+		DDCD371A1B566AF800442021 /* ImageBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBrowserController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCD36F71B566A6F00442021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCD37071B566A7000442021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCD36F11B566A6F00442021 = {
+			isa = PBXGroup;
+			children = (
+				DDCD36FC1B566A6F00442021 /* IKImageBrowserView */,
+				DDCD370D1B566A7000442021 /* IKImageBrowserViewTests */,
+				DDCD36FB1B566A6F00442021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCD36FB1B566A6F00442021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD36FA1B566A6F00442021 /* IKImageBrowserView.app */,
+				DDCD370A1B566A7000442021 /* IKImageBrowserViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCD36FC1B566A6F00442021 /* IKImageBrowserView */ = {
+			isa = PBXGroup;
+			children = (
+				2B3F03A021449CB4009D93E8 /* MainWindowController.swift */,
+				2B3F039E214494F6009D93E8 /* IKImageBrowserView.entitlements */,
+				DDCD371A1B566AF800442021 /* ImageBrowserController.swift */,
+				DDCD36FF1B566A6F00442021 /* AppDelegate.swift */,
+				DDCD37011B566A6F00442021 /* Images.xcassets */,
+				DDCD37031B566A6F00442021 /* MainMenu.xib */,
+				DDCD36FD1B566A6F00442021 /* Supporting Files */,
+				DDBE58D31B56B06F00CD60EC /* BrowserWindow.swift */,
+				DDBE58D51B56BB7100CD60EC /* PreviewWindow.swift */,
+			);
+			path = IKImageBrowserView;
+			sourceTree = "<group>";
+		};
+		DDCD36FD1B566A6F00442021 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD36FE1B566A6F00442021 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDCD370D1B566A7000442021 /* IKImageBrowserViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD37101B566A7000442021 /* IKImageBrowserViewTests.swift */,
+				DDCD370E1B566A7000442021 /* Supporting Files */,
+			);
+			path = IKImageBrowserViewTests;
+			sourceTree = "<group>";
+		};
+		DDCD370E1B566A7000442021 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD370F1B566A7000442021 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCD36F91B566A6F00442021 /* IKImageBrowserView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCD37141B566A7000442021 /* Build configuration list for PBXNativeTarget "IKImageBrowserView" */;
+			buildPhases = (
+				DDCD36F61B566A6F00442021 /* Sources */,
+				DDCD36F71B566A6F00442021 /* Frameworks */,
+				DDCD36F81B566A6F00442021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKImageBrowserView;
+			productName = IKImageBrowserView;
+			productReference = DDCD36FA1B566A6F00442021 /* IKImageBrowserView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDCD37091B566A7000442021 /* IKImageBrowserViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCD37171B566A7000442021 /* Build configuration list for PBXNativeTarget "IKImageBrowserViewTests" */;
+			buildPhases = (
+				DDCD37061B566A7000442021 /* Sources */,
+				DDCD37071B566A7000442021 /* Frameworks */,
+				DDCD37081B566A7000442021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCD370C1B566A7000442021 /* PBXTargetDependency */,
+			);
+			name = IKImageBrowserViewTests;
+			productName = IKImageBrowserViewTests;
+			productReference = DDCD370A1B566A7000442021 /* IKImageBrowserViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCD36F21B566A6F00442021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = rock;
+				TargetAttributes = {
+					DDCD36F91B566A6F00442021 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = XQ284ZEU8W;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					DDCD37091B566A7000442021 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
+						TestTargetID = DDCD36F91B566A6F00442021;
+					};
+				};
+			};
+			buildConfigurationList = DDCD36F51B566A6F00442021 /* Build configuration list for PBXProject "IKImageBrowserView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCD36F11B566A6F00442021;
+			productRefGroup = DDCD36FB1B566A6F00442021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCD36F91B566A6F00442021 /* IKImageBrowserView */,
+				DDCD37091B566A7000442021 /* IKImageBrowserViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCD36F81B566A6F00442021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCD37021B566A6F00442021 /* Images.xcassets in Resources */,
+				DDCD37051B566A6F00442021 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCD37081B566A7000442021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCD36F61B566A6F00442021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBE58D61B56BB7100CD60EC /* PreviewWindow.swift in Sources */,
+				DDCD371B1B566AF800442021 /* ImageBrowserController.swift in Sources */,
+				DDBE58D41B56B06F00CD60EC /* BrowserWindow.swift in Sources */,
+				DDCD37001B566A6F00442021 /* AppDelegate.swift in Sources */,
+				2B3F03A121449CB4009D93E8 /* MainWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCD37061B566A7000442021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCD37111B566A7000442021 /* IKImageBrowserViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCD370C1B566A7000442021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCD36F91B566A6F00442021 /* IKImageBrowserView */;
+			targetProxy = DDCD370B1B566A7000442021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDCD37031B566A6F00442021 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCD37041B566A6F00442021 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCD37121B566A7000442021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCD37131B566A7000442021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DDCD37151B566A7000442021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IKImageBrowserView/IKImageBrowserView.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XQ284ZEU8W;
+				INFOPLIST_FILE = IKImageBrowserView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DDCD37161B566A7000442021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IKImageBrowserView/IKImageBrowserView.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XQ284ZEU8W;
+				INFOPLIST_FILE = IKImageBrowserView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		DDCD37181B566A7000442021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKImageBrowserViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKImageBrowserView.app/Contents/MacOS/IKImageBrowserView";
+			};
+			name = Debug;
+		};
+		DDCD37191B566A7000442021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKImageBrowserViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKImageBrowserView.app/Contents/MacOS/IKImageBrowserView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCD36F51B566A6F00442021 /* Build configuration list for PBXProject "IKImageBrowserView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCD37121B566A7000442021 /* Debug */,
+				DDCD37131B566A7000442021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCD37141B566A7000442021 /* Build configuration list for PBXNativeTarget "IKImageBrowserView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCD37151B566A7000442021 /* Debug */,
+				DDCD37161B566A7000442021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCD37171B566A7000442021 /* Build configuration list for PBXNativeTarget "IKImageBrowserViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCD37181B566A7000442021 /* Debug */,
+				DDCD37191B566A7000442021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCD36F21B566A6F00442021 /* Project object */;
+}
